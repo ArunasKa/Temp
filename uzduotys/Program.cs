@@ -11,6 +11,12 @@
                 Console.WriteLine($"rutulio plotas = {plotas}");
 
 
+
+
+
+
+
+
             }
             // 2 uzduotis
             {
