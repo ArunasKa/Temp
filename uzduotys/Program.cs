@@ -1,4 +1,4 @@
-﻿namespace Ciklai
+﻿namespace Bendras
 {
     class Program
     {
