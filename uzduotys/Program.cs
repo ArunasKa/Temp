@@ -14,7 +14,7 @@
             // 2 uzduotis
             
                 spindulys = 6371;
-                double turis = (4/3) * 3.1415926535898 * Math.Pow(spindulys, 3);
+                double turis = (4/3) * Math.PI * Math.Pow(spindulys, 3);
                 Console.WriteLine($"rutulio plotas = {turis}");
             
             //-------------------------------------------- 3 UZDUOTIS ------------------------------------------
