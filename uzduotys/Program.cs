@@ -6,13 +6,14 @@
         {//-------------------------------------------- 3 UZDUOTIS ------------------------------------------
             double a = 10;
             double b = 15;
-            double kintSkaicius = 3;
-            
+                        
             Console.Writeline($"Pirma staciojo trikampio krastine: {a}");
             Console.WriteLine($"Anras staciojo trikampio krastine: {b}");
             double c = Console.WriteLine($"Staciojo trikampio zambine: {a * a + b * b}");
 
             //--------------------------------------- 4 UZDUOTIS ---------------------------------------------
+
+            double kintSkaicius = 3;
 
             Console.WriteLine("*************************************************************************");
             Console.WriteLine("Viso kintamuju: 3");
