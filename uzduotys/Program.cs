@@ -15,7 +15,7 @@
             
                 spindulys = 6371;
                 double turis = (4/3) * Math.PI * Math.Pow(spindulys, 3);
-                Console.WriteLine($"rutulio plotas = {turis}");
+                Console.WriteLine($"rutulio turis = {turis}");
             
             //-------------------------------------------- 3 UZDUOTIS ------------------------------------------
             double a = 10;
