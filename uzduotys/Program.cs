@@ -6,6 +6,7 @@
         {//-------------------------------------------- 3 UZDUOTIS ------------------------------------------
             double a = 10;
             double b = 15;
+            double kintSkaicius = 3;
             
             Console.Writeline($"Pirma staciojo trikampio krastine: {a}");
             Console.WriteLine($"Anras staciojo trikampio krastine: {b}");
@@ -15,11 +16,11 @@
 
             Console.WriteLine("*************************************************************************");
             Console.WriteLine("Viso kintamuju: 3");
-            Console.WriteLine("1 kintamasis: ");
-            Console.WriteLine("2 kintamasis: ");
-            Console.WriteLine("3 kintamasis: ");
-            Console.WriteLine($"Kintamuju suma: {kint1 + kint2 + kint3}");
-            Console.WriteLine($"Kintamuju vidurkis: {(kint1 + kint2 + kint3) / kintSkaicius}" );
+            Console.WriteLine("1 kintamasis: Plotas = {plotas}");
+            Console.WriteLine("2 kintamasis: Turis = {turis}");
+            Console.WriteLine("3 kintamasis: trikampio izambine = {c} ");
+            Console.WriteLine($"Kintamuju suma: {plotas + turis + c}");
+            Console.WriteLine($"Kintamuju vidurkis: {(plotas + turis + c) / kintSkaicius}" );
             Console.WriteLine("*************************************************************************");
         }
     }
