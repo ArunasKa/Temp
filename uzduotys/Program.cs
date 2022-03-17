@@ -45,7 +45,7 @@
             Console.WriteLine("Viso kintamuju: 3");
             Console.WriteLine($"1 kintamasis: Plotas = {plotas}");
             Console.WriteLine($"2 kintamasis: Turis = {turis}");
-            Console.WriteLine("3 kintamasis: trikampio izambine = {c} ");
+            Console.WriteLine($"3 kintamasis: trikampio izambine = {c} ");
             Console.WriteLine($"Kintamuju suma: {plotas + turis + c}");
             Console.WriteLine($"Kintamuju vidurkis: {(plotas + turis + c) / kintSkaicius}");
             Console.WriteLine("*************************************************************************");
